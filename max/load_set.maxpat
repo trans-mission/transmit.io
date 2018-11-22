@@ -43,7 +43,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.0, 132.0, 288.0, 20.0 ],
-					"presentation_rect" : [ 200.5, 118.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "open ableton live set 2"
 				}
@@ -56,7 +55,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 151.5, 63.0, 288.0, 20.0 ],
-					"presentation_rect" : [ 154.0, 63.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "open ableton live set 1"
 				}
@@ -72,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.5, 165.0, 445.0, 23.0 ],
-					"presentation_rect" : [ 268.5, 134.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "bash /Volumes/transmission.band/Github/live/bash/open_set.sh test2.als"
 				}
@@ -149,9 +146,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.5, 91.0, 451.0, 23.0 ],
+					"patching_rect" : [ 151.5, 91.0, 466.0, 23.0 ],
 					"style" : "",
-					"text" : "bash /Volumes/transmission.band/Github/live/bash/open_set.sh test1.als"
+					"text" : "bash /Volumes/transmission.band/Github/live/bash/open_set.sh song_01.als"
 				}
 
 			}
