@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 126.0, 44.0, 1120.0, 852.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 852.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -373,7 +373,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 18.0, 179.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "10"
+									"text" : "9"
 								}
 
 							}
@@ -917,7 +917,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 831.333313, 433.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -1198,7 +1198,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 892.833252, 362.0, 526.666748, 22.0 ],
 					"style" : "",
-					"text" : "bash /Volumes/transmission.band/Github/live/bash/open_set.sh song_02.als"
+					"text" : "bash /Volumes/transmission.band/Github/live/bash/open_set.sh song_01.als"
 				}
 
 			}
@@ -3370,7 +3370,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 276.0, 78.0, 962.0, 564.0 ],
+						"rect" : [ 276.0, 78.0, 1011.0, 661.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -3398,6 +3398,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "bigpatcher",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -3590,7 +3591,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 576.833313, 564.666687, 101.833313, 33.0 ],
 									"style" : "",
-									"text" : "Gated Value \nfor CC No. 1",
+									"text" : "Gated Value \nfor CC No. 2",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 
@@ -3924,7 +3925,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 529.625, 374.0, 29.666664, 20.0 ],
+									"patching_rect" : [ 477.625, 370.666656, 29.666664, 20.0 ],
 									"style" : "",
 									"text" : "CC ",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -4905,7 +4906,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.439499, 324.666656, 188.666672, 22.0 ],
 					"style" : "",
-					"text" : "port \"to Max 1\""
+					"text" : "port \"USB Uno MIDI Interface\""
 				}
 
 			}
@@ -4984,7 +4985,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-5",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2", ",", "USB Uno MIDI Interface" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5562,8 +5563,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 266.689514, 488.248718, 493.833374, 488.248718 ],
-					"source" : [ "obj-21", 3 ]
+					"midpoints" : [ 212.772842, 488.248718, 493.833374, 488.248718 ],
+					"source" : [ "obj-21", 2 ]
 				}
 
 			}
@@ -5588,9 +5589,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 320.606201, 477.748718, 597.531067, 477.748718 ],
-					"order" : 1,
-					"source" : [ "obj-21", 4 ]
+					"midpoints" : [ 266.689514, 477.748718, 597.531067, 477.748718 ],
+					"source" : [ "obj-21", 3 ]
 				}
 
 			}
@@ -5605,7 +5605,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"order" : 0,
 					"source" : [ "obj-21", 4 ]
 				}
 
