@@ -1,2 +1,6 @@
 .DS_Store
 ableton_test_project/
+
+
+# npm and node
+node_modules/
