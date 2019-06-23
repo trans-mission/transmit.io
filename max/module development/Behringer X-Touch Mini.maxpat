@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1680.0, 1005.0 ],
+		"rect" : [ -168.0, -1784.0, 1874.0, 1385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.616656939289101, 909.000002145767212, 300.0, 159.0 ],
+					"patching_rect" : [ 103.283323685428627, 1086.333340764045715, 300.0, 159.0 ],
 					"proportion" : 0.39
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.336182980081134, 939.000002145767212, 36.0, 26.0 ],
+					"patching_rect" : [ 42.336182980081134, 901.000002145767212, 36.0, 26.0 ],
 					"text" : "1"
 				}
 
@@ -505,7 +505,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.778111649061202, 383.999994379859913, 518.166647267139638, 28.0 ],
-					"presentation_linecount" : 2,
 					"text" : "MIDI data received, then parsed",
 					"textcolor" : [ 0.016804, 0.198351, 1.0, 1.0 ]
 				}
@@ -900,7 +899,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 141.0, 119.0, 1748.0, 1073.0 ],
+						"rect" : [ -387.0, -1691.0, 3099.0, 1164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1701,7 +1700,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 151.0, 165.0, 1099.0, 551.0 ],
+										"rect" : [ 1101.0, -1224.0, 1099.0, 551.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -1919,7 +1918,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 108.522229580051317, 26.0, 423.666665434837455, 49.0 ],
-													"presentation_linecount" : 2,
 													"text" : "condition logic to route x-touch midi notes\nmidi notes : (8-23), (32-47)",
 													"textcolor" : [ 0.016804, 0.198351, 1.0, 1.0 ]
 												}
@@ -5238,7 +5236,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 127.778086448015273, 660.0, 105.0, 660.0, 105.0, 924.0, 129.836182980081134, 924.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
